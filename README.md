@@ -12,11 +12,6 @@ This project focuses on predicting PM2.5 levels in Beijing using machine learnin
 │   ├── beijing_pm_25.csv
 ├── notebooks/
 │   ├── main.ipynb
-├── src/
-│   ├── preprocess_data.py
-│   ├── feature_engineering.py
-│   ├── model_training.py
-│   └── main.py
 ├── Dockerfile
 ├── requirements.txt
 ├── README.md
@@ -24,7 +19,6 @@ This project focuses on predicting PM2.5 levels in Beijing using machine learnin
 
 - `data/`: Contains the dataset used for analysis.
 - `notebooks/`: Jupyter notebook with all code.
-- `src/`: Source code for data processing, feature engineering, and model training.
 - `Dockerfile`: Instructions for building the Docker container.
 - `requirements.txt`: List of Python dependencies.
 
@@ -62,7 +56,7 @@ This project focuses on predicting PM2.5 levels in Beijing using machine learnin
 
 Once you have the Jupyter interface open in your browser:
 
-1. Open `task2.ipynb`.
+1. Open `main.ipynb`.
 2. Run all the notebook cells to perform data analysis, feature engineering, model training, and evaluation.
 
 ## Data
@@ -86,7 +80,6 @@ The dataset used in this project is the "Beijing PM2.5" dataset. It contains the
 The project evaluates several machine learning models:
 
 - XGBoost
-- Linear Regression
 - Random Forest
 - AdaBoost
 
