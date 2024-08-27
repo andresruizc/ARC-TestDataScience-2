@@ -38,8 +38,8 @@ This project focuses on predicting PM2.5 levels in Beijing using machine learnin
 
 1. Clone this repository:
    ```
-   git clone [Your Repository URL]
-   cd [Your Repository Name]
+   git clone https://github.com/andresruizc/ARC-TestDataScience-2.git
+   cd ARC-TestDataScience-2
    ```
 
 2. Build the Docker image:
