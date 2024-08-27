@@ -44,16 +44,18 @@ This project focuses on predicting PM2.5 levels in Beijing using machine learnin
 
 2. Build the Docker image:
    ```
-   docker build -t pm25-prediction -f Dockerfile .
+   docker build -t jupyter-air-quality  -f Dockerfile .
    ```
 
 3. Run the Docker container:
    ```
-   docker run -p 8888:8888 pm25-prediction
+   docker run -p 8888:8888 jupyter-air-quality
    ```
 
-4. Open the Jupyter notebook URL provided in the console output in your web browser.
-
+4. Open the Jupyter Lab URL provided in the console output in your web browser.
+   ```
+   http://127.0.0.1:8888/?token=xxxxxxxxxxxxx
+   ```
 ## Usage
 
 ### Jupyter Notebook
